@@ -1,0 +1,21 @@
+.inventories-container{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.manageInventory-button{
+    margin-top: 50px;
+    background-color: #141e27;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width:668px) {
+    .inventories-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
